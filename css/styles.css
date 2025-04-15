@@ -220,6 +220,7 @@ a:hover {
     background-color: var(--primary-brand-color);
     border: 4px solid var(--light-text-color); 
     border-radius: 40px;   
+    box-shadow: 10px 10px 400px 0px rgba(250, 224, 30, 0.748);
 }
 .step-subblock{
     position: relative;
