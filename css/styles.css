@@ -197,6 +197,9 @@ a:hover {
 }
 
 .steps-subtitle{
+    display: flex;
+    align-items: center;
+    text-align: right;
     margin: 63px 0;
     min-width: 603px;
     font-size: 24px;
