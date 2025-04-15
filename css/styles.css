@@ -189,6 +189,7 @@ a:hover {
     gap: 83px;
 }
 .steps-title {
+    max-width: 1200px;
     font-size: 90px;
     line-height: 110%;
     margin-bottom: 32px;
