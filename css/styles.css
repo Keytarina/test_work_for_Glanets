@@ -185,6 +185,7 @@ a:hover {
 
 .steps-content-1 {
     display: flex;
+    justify-content: space-between;
     align-content: center;
     gap: 83px;
 }
