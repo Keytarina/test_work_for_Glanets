@@ -73,10 +73,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 20px 57px;
     background-color: var(--light-text-color);
 }
-
 .nav {
     display: flex;
     align-items: center;
@@ -120,19 +119,17 @@ a:hover {
     font-size: 26px;  
     color: var(--main-text-color);     
 }
-
+/* HERO SECTION */
 .hero {
     display: flex;
     flex-direction: column;
     background-color: var(--accent-color);
     width: 100%;
-    height: 840px;
-    background-image: url('../images/1-st-banner.png');
+    background-image: url('../images/hero/hero.png');
     background-size: cover;
     background-position: center;
     border-radius: 40px
 }
-
 .hero-content {
     margin:  213px 0 98px 58.5px;
     max-width: 928px;
@@ -147,30 +144,64 @@ a:hover {
     font-weight: 900;
     text-shadow: 0 7px 7px rgba(0, 0, 0, 0.397);
 }
-.hero-content .hero-subtitle {
-}
-.hero-subtitle .hero-text {
-
-}
-
 .hero-btn {
     display: inline-block;
     margin-top: 40px;
     padding: 20px 64px;
     background-color: var(--primary-brand-color);
     color: var(--main-text-color);
+    border:var(--primary-brand-color) 4px solid;   
     border-radius: 5px;
 }
-
 .btn:hover, .btn:focus {
     background-color: var(--button-hover-color);
     color: var(--light-text-color);
     border:#000000 4px solid;   
 }
-
 .hero-dots {
     width: 148px;
     margin-left:  58.5px;
+}
+
+/* Пагінація для hero */
+.pagination {
+    display: flex;
+    gap: 17px;
+  } 
+  .dot {
+    margin-top: 98px;
+    height: 16px;
+    width: 16px;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: 3px solid #fff;
+  }
+  .dot.active, .dot:hover, .dot:focus {
+    background-color:  var(--primary-brand-color);
+    border: 3px solid var(--primary-brand-color);
+  }
+
+.more-block {
+    margin-top: 7px;
+    margin-bottom: 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.more-text {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 125%;
+    color: var(--light-text-color);
+    
+}
+.more-img {
+    height: 28px;
+    width: 18px;
 }
 
 /* STEPS */
@@ -181,13 +212,8 @@ a:hover {
 .steps-container {
     margin-left: 58px;
     margin-top: 128px;
-}
-
-.steps-content-1 {
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    gap: 83px;
 }
 .steps-title {
     max-width: 1200px;
@@ -209,9 +235,8 @@ a:hover {
     line-height: 150%;
     color: var(--main-text-color);
 }
-
-.step-block{ 
-    margin-top: 84px;
+.steps-block{ 
+    margin-top: 150px;
     padding: 16px;
     font-family: "FixelText", sans-serif;
     font-weight: 400;
@@ -223,10 +248,10 @@ a:hover {
     border-radius: 40px;   
     box-shadow: 10px 10px 400px 0px rgba(250, 224, 30, 0.748);
 }
-.step-subblock{
+.steps-subblock{
     position: relative;
     top: -290px;
-    left: 40px;
+    left: 25px;
     width: 600px;
     height: 308px;
     background-color: #EBC31D;
@@ -234,29 +259,50 @@ a:hover {
     z-index: -1;
     transform: rotate(-15deg);
 }
-.step-block img {
+.steps-block img {
     width: 100%;
     height: 56px;
     transform: rotate(15deg);
 }
-.step-block-text {
+.steps-block-text {
     padding: 0 10px 20px 10px;
 
 }
-.step-img {
+.steps-img {
     position: absolute;
     top: 100px;
     left: -20px;
     z-index: -1;
 }
-
-.step {
-    background-color: var(--light-text-color);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
-    text-align: center;
-    color: var(--main-text-color);
+.steps-block-decor-left {
+    position: relative;
+    top: -230px;
+    left: 40px
 }
-
+.steps-block-decor-right {
+    position: relative;
+    top: -750px;
+    left: 470px
+}
+.steps-left-block-text {
+    margin-top: -200px;
+    font-weight: 700;
+    font-size: 24px;
+    max-width: 981px;
+}
+.steps-right-block-img {
+    /* display: flex;
+    flex-direction: column; */
+    position: relative;
+}
+.steps-right-block-img .emoji {
+    position: absolute;
+    top: 367px;
+    right: 0;
+    
+}
+.steps-right-block-img .sparcles {
+    position: absolute;
+    top: 209px;
+    left: 40px;
+}
