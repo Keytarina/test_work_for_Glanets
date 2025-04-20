@@ -1,238 +1,604 @@
-div<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="uk">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Глянець</title>
+		<link rel="stylesheet" href="css/fonts.css" />
 		<link rel="stylesheet" href="css/styles.css" />
-		<!-- Підключаємо CSS -->
 	</head>
 	<body>
-		<!DOCTYPE html>
-		<html lang="uk">
-			<head>
-				<meta charset="UTF-8" />
-				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<title>Глянець</title>
-				<link rel="stylesheet" href="fonts.css" />
-				<link rel="stylesheet" href="styles.css" />
-			</head>
-			<body>
-				<div class="container">
-					<header class="header">
-						<nav class="nav">
-							<!-- Логотип -->
-							<a href="." class="logo">
-								<img src="./images/svg/logo.svg" alt="Логотип" />
-							</a>
+		<div class="container">
+			<header class="header">
+				<nav class="nav">
+					<!-- Логотип -->
+					<a href="." class="logo">
+						<img src="./images/svg/logo.svg" alt="Логотип" />
+					</a>
 
-							<!-- Навігація -->
-							<ul class="nav-list">
-								<li class="nav-item"><a href="#">Чому ми?</a></li>
-								<li class="nav-item"><a href="#">Партнери</a></li>
-								<li class="nav-item"><a href="#">Благодійність</a></li>
-								<li class="nav-item"><a href="#">Про нас</a></li>
-								<li class="nav-item"><a href="#">Drupal</a></li>
-							</ul>
-						</nav>
+					<!-- Навігація -->
+					<ul class="nav-list">
+						<li class="nav-item"><a href="#">Чому ми?</a></li>
+						<li class="nav-item"><a href="#">Партнери</a></li>
+						<li class="nav-item"><a href="#">Благодійність</a></li>
+						<li class="nav-item"><a href="#">Про нас</a></li>
+						<li class="nav-item"><a href="#">Drupal</a></li>
+					</ul>
+				</nav>
 
-						<!-- Контакти -->
-						<div class="contacts">
-							<ul class="social-media-list">
-								<li class="social-item">
-									<a href="#"
-										><img src="./images/icons/facebook.svg" alt="Facebook"
-									/></a>
-								</li>
-								<li class="social-item">
-									<a href="#"
-										><img src="./images/icons/instagram.svg" alt="Instagram"
-									/></a>
-								</li>
-								<li class="social-item">
-									<a href="#"
-										><img src="./images/icons/viber.svg" alt="Viber"
-									/></a>
-								</li>
-							</ul>
+				<!-- Контакти -->
+				<div class="contacts">
+					<ul class="social-media-list">
+						<li class="social-item">
+							<a href="#"
+								><img src="./images/icons/facebook.svg" alt="Facebook"
+							/></a>
+						</li>
+						<li class="social-item">
+							<a href="#"
+								><img src="./images/icons/instagram.svg" alt="Instagram"
+							/></a>
+						</li>
+						<li class="social-item">
+							<a href="#"><img src="./images/icons/viber.svg" alt="Viber" /></a>
+						</li>
+					</ul>
 
-							<ul class="contacts-list">
-								<li class="contacts-item">Пн-Пт 9:00-18:00</li>
-								<li class="contacts-item">
-									<a class="tel" href="tel:+380800759759">0 (800) 759-759</a>
-								</li>
-							</ul>
-						</div>
-					</header>
-
-					<main>
-						<section class="hero">
-							<div class="hero-content">
-								<p class="hero-subtitle">Вебстудія №1 з розробки сайтів</p>
-								<h1 class="hero-title">
-									Приєднуйтесь <br />до нашої IT-команди
-								</h1>
-								<p class="hero-text">
-									Відкрийте нові перспективи кар'єрного зростання, приєднавшись
-									до нашої інноваційної IT-команди, яка відкриває двері до
-									безмежних можливостей
-								</p>
-								<a href="#" class="hero-btn btn">Спробуй свої сили</a>
-
-								<!-- Пагінація для слайду -->
-								<ul class="pagination">
-									<li class="pagination-item">
-										<button
-											class="dot"
-											aria-label="Перейти до слайда 1"
-										></button>
-									</li>
-									<li class="pagination-item">
-										<button
-											class="dot"
-											aria-label="Перейти до слайда 2"
-										></button>
-									</li>
-									<li class="pagination-item">
-										<button
-											class="dot active"
-											aria-label="Перейти до слайда 3"
-										></button>
-									</li>
-									<li class="pagination-item">
-										<button
-											class="dot"
-											aria-label="Перейти до слайда 4"
-										></button>
-									</li>
-									<li class="pagination-item">
-										<button
-											class="dot"
-											aria-label="Перейти до слайда 5"
-										></button>
-									</li>
-								</ul>
-							</div>
-							<div class="more-block">
-								<p class="more-text">Дізнатися більше</p>
-								<button class="more-btn">
-									<img
-										class="more-img"
-										src="./images/hero/arrow.svg"
-										alt="Arrow down"
-									/>
-								</button>
-							</div>
-						</section>
-
-						<section class="steps">
-							<div class="steps-container">
-								<div class="steps-left-block">
-									<h2 class="steps-title">
-										Етапи перевірки тестового завдання!
-									</h2>
-
-									<div class="steps-block">
-										<img src="./images/svg/sparkles.svg" alt="" />
-										<p class="steps-block-text">
-											Хоча тестові завдання <b>приймає бот</b>, їх
-											<b>перевіряють реальні люди</b> – твої майбутні
-											<b>колеги з відділу</b>, до якого ти подаєш резюме. Якщо
-											робота підходить, саме команда обирає тебе та
-											<b>допомагатиме під час стажування</b>.
-										</p>
-									</div>
-									<div class="steps-subblock"></div>
-									<img
-										class="steps-block-decor-left"
-										src="./images/svg/decor-block-left.svg"
-										alt=""
-									/>
-									<img
-										class="steps-block-decor-right"
-										src="./images/svg/decor-block-right.svg"
-										alt=""
-									/>
-
-									<p class="steps-left-block-text">
-										Не дивуйтеся, якщо отримаєте відповідь уже за 5 хвилин після
-										подачі або пізно вночі. Ми не працюємо за застарілими
-										стандартами й перевіряємо тестові завдання у вільний час,
-										навіть з особистих телефонів – усе для того, щоб ви швидше
-										дізналися результат.
-									</p>
-								</div>
-								<div class="steps-right-block">
-									<p class="steps-subtitle">
-										Ми цінуємо ваш час, тому оперативно перевіряємо <br />
-										тестові роботи вручну, гарантуючи якісну оцінку.
-									</p>
-									<div class="steps-right-block-img">
-										<img
-											class="sparcles"
-											src="./images/stars.png"
-											alt="stars"
-										/>
-										<img class="emoji" src="./images/emoji.png" alt="stars" />
-									</div>
-								</div>
-							</div>
-						</section>
-						<section class="our-team">
-							<div class="our-team-container">
-								<div class="our-team-text-content">
-									<div class="our-team-title-block">
-										<h2 class="our-team-title">
-											Найкраща компанія для роботи в IT
-										</h2>
-										<img src="./images/mini-logo.png" alt="" />
-									</div>
-
-									<h3 class="our-team-subtitle">
-										Вебстудія Глянець — команда, яка налічує понад 50
-										професіоналів
-									</h3>
-									<p class="our-team-text">
-										За час своєї роботи ми розробили сотні інтернет-магазинів,
-										які працюють у всіх країнах світу, продаючи своїм замовникам
-										тисячі товарів на добу.<br />
-										Наша компанія має власний офіс, хостинг, проводить навчання
-										кадрів, здійснює контроль якості кожного проєкту.<br />
-										Глянець — це надійність. Перевірено досвідом!
-									</p>
-									<ul class="our-team-list">
-										<li class="our-team-item">
-											<a href="#"
-												><img src="./images/icons/our-team-icon1.svg" alt=""
-											/></a>
-										</li>
-										<li class="our-team-item">
-											<a href="#"
-												><img src="./images/icons/our-team-icon1.svg" alt=""
-											/></a>
-										</li>
-										<li class="our-team-item">
-											<a href="#"
-												><img src="./images/icons/our-team-icon1.svg" alt=""
-											/></a>
-										</li>
-									</ul>
-								</div>
-
-								<div class="our-team-img">
-									<img src="./images/team.png" alt="Наша команда" />
-								</div>
-							</div>
-						</section>
-					</main>
+					<ul class="contacts-list">
+						<li class="contacts-item">Пн-Пт 9:00-18:00</li>
+						<li class="contacts-item">
+							<a class="tel" href="tel:+380800759759">0 (800) 759-759</a>
+						</li>
+					</ul>
 				</div>
-				<footer class="footer">
-					<div class="footer-container"></div>
-				</footer>
+			</header>
 
-				<script src="js/script.js"></script>
-				<!-- Підключаємо JavaScript -->
-			</body>
-		</html>
+			<main>
+				<section class="hero">
+					<div class="hero-content">
+						<p class="hero-subtitle">Вебстудія №1 з розробки сайтів</p>
+						<h1 class="hero-title">Приєднуйтесь <br />до нашої IT-команди</h1>
+						<p class="hero-text">
+							Відкрийте нові перспективи кар'єрного зростання, приєднавшись до
+							нашої інноваційної IT-команди, яка відкриває двері до безмежних
+							можливостей
+						</p>
+						<a href="#" class="hero-btn btn">Спробуй свої сили</a>
+
+						<!-- Пагінація для слайду -->
+						<ul class="pagination">
+							<li class="pagination-item">
+								<button class="dot" aria-label="Перейти до слайда 1"></button>
+							</li>
+							<li class="pagination-item">
+								<button class="dot" aria-label="Перейти до слайда 2"></button>
+							</li>
+							<li class="pagination-item">
+								<button
+									class="dot active"
+									aria-label="Перейти до слайда 3"
+								></button>
+							</li>
+							<li class="pagination-item">
+								<button class="dot" aria-label="Перейти до слайда 4"></button>
+							</li>
+							<li class="pagination-item">
+								<button class="dot" aria-label="Перейти до слайда 5"></button>
+							</li>
+						</ul>
+					</div>
+					<div class="more-block">
+						<p class="more-text">Дізнатися більше</p>
+						<a
+							class="more-btn"
+							href="#steps"
+							aria-label="Дізнатися більше про етапи перевірки тестового завдання"
+							><img
+								class="more-img"
+								src="./images/hero/arrow.svg"
+								alt="Arrow down"
+						/></a>
+					</div>
+				</section>
+
+				<!-- Steps section -->
+				<section class="steps" id="steps">
+					<div class="steps-container">
+						<div class="steps-left-block">
+							<h2 class="steps-title title">
+								Етапи перевірки тестового завдання!
+							</h2>
+
+							<div class="steps-block">
+								<img src="./images/svg/sparkles.svg" alt="" />
+								<p class="steps-block-text">
+									Хоча тестові завдання <b>приймає бот</b>, їх
+									<b>перевіряють реальні люди</b> – твої майбутні
+									<b>колеги з відділу</b>, до якого ти подаєш резюме. Якщо
+									робота підходить, саме команда обирає тебе та
+									<b>допомагатиме під час стажування</b>.
+								</p>
+							</div>
+							<div class="steps-subblock"></div>
+							<img
+								class="steps-block-decor-left"
+								src="./images/steps/decor-block-left.svg"
+								alt=""
+							/>
+							<img
+								class="steps-block-decor-right"
+								src="./images/steps/decor-block-right.svg"
+								alt=""
+							/>
+
+							<p class="steps-left-block-text">
+								Не дивуйтеся, якщо отримаєте відповідь уже за 5 хвилин після
+								подачі або пізно вночі. Ми не працюємо за застарілими
+								стандартами й перевіряємо тестові завдання у вільний час, навіть
+								з особистих телефонів – усе для того, щоб ви швидше дізналися
+								результат.
+							</p>
+						</div>
+						<div class="steps-right-block">
+							<p class="steps-subtitle">
+								Ми цінуємо ваш час, тому оперативно перевіряємо тестові роботи
+								вручну, гарантуючи якісну оцінку.
+							</p>
+							<div class="steps-right-block-img">
+								<img
+									class="sparcles"
+									src="./images/steps/stars.png"
+									alt="stars"
+								/>
+								<img class="emoji" src="./images/steps/emoji.png" alt="stars" />
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Our team -->
+				<section class="our-team">
+					<div class="our-team-text-content">
+						<h2 class="our-team-title">
+							Найкраща компанія для роботи в IT
+							<img src="./images/mini-logo.png" alt="" />
+						</h2>
+
+						<h3 class="our-team-subtitle">
+							Вебстудія Глянець — команда, яка налічує понад 50 професіоналів
+						</h3>
+						<div class="our-team-text">
+							<p>
+								За час своєї роботи ми розробили сотні інтернет-магазинів, які
+								працюють у всіх країнах світу, продаючи своїм замовникам тисячі
+								товарів на добу.<br />
+							</p>
+							<p>
+								Наша компанія має власний офіс, хостинг, проводить навчання
+								кадрів, здійснює контроль якості кожного проєкту.<br />
+							</p>
+							<p>Глянець — це надійність. Перевірено досвідом!</p>
+						</div>
+						<ul class="our-team-sturtups-list">
+							<li class="our-team-item">
+								<a href="#"
+									><img
+										class="ukr-gromad"
+										src="./images/startups/ukr-gromad.png"
+										alt="Україна Громад"
+								/></a>
+							</li>
+							<li class="our-team-item">
+								<a href="#"
+									><img
+										src="./images/startups/alternative.png"
+										alt="Alternative commerce"
+								/></a>
+							</li>
+							<li class="our-team-item">
+								<a href="#"
+									><img src="./images/startups/helpdesk.png" alt="Helpdesk"
+								/></a>
+							</li>
+						</ul>
+					</div>
+					<div class="our-team-img">
+						<img src="./images/team/all-team.png" alt="Наша команда" />
+					</div>
+				</section>
+
+				<!-- Why us? -->
+				<section class="why-us">
+					<h2 class="why-us-title title">Чому ми?</h2>
+
+					<!-- Left block -->
+					<div class="why-us-blocks">
+						<ul class="why-us-block left-block">
+							<li class="block-item">
+								<img src="./images/why-us/left-1.svg" alt="icon" />
+								<div class="block-text-content">
+									<h3 class="block-title">Постійне зростання надходжень</h3>
+									<p class="block-text">
+										У нашій компанії ми працюємо над тим, щоб надходження
+										<b>постійно зростали</b>. Наша мета — допомогти вам досягти
+										фінансового успіху.
+									</p>
+								</div>
+							</li>
+							<li class="block-item">
+								<img src="./images/why-us/left-2.svg" alt="icon" />
+								<div class="block-text-content">
+									<h3 class="block-title">Вільний ГРАФІК</h3>
+									<p class="block-text">
+										Ми розуміємо, що кожна людина має унікальні потреби та
+										обставини, тому пропонуємо гнучкий режим роботи, який
+										враховує
+										<b>індивідуальні вимоги</b> та дозволяє пристосуватися до
+										них.
+									</p>
+								</div>
+							</li>
+							<li class="block-item">
+								<img src="./images/why-us/left-3.svg" alt="icon" />
+								<div class="block-text-content">
+									<h3 class="block-title">комфортний офіс</h3>
+									<p class="block-text">
+										Кожен співробітник матиме своє
+										<b>робоче місце і зручні зони відпочинку</b>, що сприяють
+										розслабленню та відновленню енергії. Використовуємо
+										Starlink, тому завжди на звʼязку.
+									</p>
+								</div>
+							</li>
+							<li class="block-item">
+								<img src="./images/why-us/left-4.svg" alt="icon" />
+								<div class="block-text-content">
+									<h3 class="block-title">
+										можливість працювати з дому в майбутньому
+									</h3>
+									<p class="block-text">
+										Ми цінуємо баланс між роботою та особистим життям, тому
+										передбачаємо гнучкий формат роботи для комфорту та
+										ефективності.
+									</p>
+								</div>
+							</li>
+							<li class="block-item">
+								<img src="./images/why-us/left-5.svg" alt="icon" />
+								<div class="block-text-content">
+									<h3 class="block-title">швидкий розвиток</h3>
+									<p class="block-text">
+										За короткий проміжок часу ти
+										<b>стаєш повноцінним веброзробником</b> і тобі не важливо що
+										то буде за макет, ти зможеш реалізувати все!
+									</p>
+								</div>
+							</li>
+						</ul>
+						<div class="left-subblock"></div>
+
+						<!-- Right block -->
+						<ul class="why-us-block right-block">
+							<li class="block-item">
+								<img src="./images/why-us/right-1.svg" alt="icon" />
+								<div class="block-text-content">
+									<h3 class="block-title">НАВИЧКИ ТА ПІДТРИМКА</h3>
+									<p class="block-text">
+										Працюючи у нас ти будеш працювати з препроцесорами,
+										шаблонізаторами, різними бібліотеками, Doker, Git і з усім
+										цим
+										<b>ми тобі допоможемо розібратися</b> і дамо можливість
+										<b>свої знання сповна реалізувати</b>.
+									</p>
+								</div>
+							</li>
+							<li class="block-item">
+								<img src="./images/why-us/right-2.svg" alt="icon" />
+								<div class="block-text-content">
+									<h3 class="block-title">
+										Завжди є замовлення на роки вперед
+									</h3>
+									<p class="block-text">
+										У нас потік <b>нових замовлень</b>, тому щоразу ти зможеш
+										спробувати реалізувати щось нове.
+									</p>
+								</div>
+							</li>
+							<li class="block-item">
+								<img src="./images/why-us/right-3.svg" alt="icon" />
+								<div class="block-text-content">
+									<h3 class="block-title">участь у стартапах</h3>
+									<p class="block-text">
+										У нашій компанії, яка налічує багато стартапів, ми надаємо
+										учасникам розробки можливість <b>отримати відсоток</b> від
+										прибутку. Також ти розберешся в Drupal API та зможеш писати
+										<b>свої модулі</b>.
+									</p>
+								</div>
+							</li>
+							<li class="block-item">
+								<img src="./images/why-us/right-4.svg" alt="icon" />
+								<div class="block-text-content">
+									<h3 class="block-title">MacBook та 22-дюймові монітори</h3>
+									<p class="block-text">
+										Ми забезпечуємо всіх виконавців
+										<b>сучасною технікою від Apple</b>. Кожен співробітник
+										отримує свій власний MacBook, що дозволяє працювати з
+										надійним та потужним обладнанням, якісно виконувати будь-які
+										поточні завдання.
+									</p>
+								</div>
+							</li>
+							<li class="block-item">
+								<img src="./images/why-us/right-5.svg" alt="icon" />
+								<div class="block-text-content">
+									<h3 class="block-title">відпочинок на розваги</h3>
+									<p class="block-text">
+										Ми облаштували комфортні зони відпочинку на свіжому повітрі.
+										Окрім цього, в офісі є <b>PlayStation та VR-окуляри</b> ,
+										тож під час перерв або після робочого дня завжди можна
+										розважитися.
+									</p>
+								</div>
+							</li>
+						</ul>
+						<div class="right-subbloock"></div>
+					</div>
+
+					<ul class="galery-our-team">
+						<li class="galery-item">
+							<img src="./images/team/team-1.png" alt="team" />
+						</li>
+						<li class="galery-item">
+							<img src="./images/team/team-2.png" alt="team" />
+						</li>
+						<li class="galery-item">
+							<img src="./images/team/team-3.png" alt="team" />
+						</li>
+						<li class="galery-item">
+							<img src="./images/team/team-4.png" alt="team" />
+						</li>
+					</ul>
+				</section>
+
+				<!-- Drupal -->
+				<section class="drupal">
+					<h2 class="drupal-title title">Наш вклад в Drupal</h2>
+					<ul class="drupal-list">
+						<li class="drupal-item">
+							<img src="./images/drupal/drupal-1.svg" alt="icon" />
+							<div class="drupal-text-content">
+								<h3 class="drupal-subtitle">
+									Ми зробили сайт спільноти drupal.org.ua
+								</h3>
+								<p class="drupal-text">
+									Ми розуміємо, що кожна людина має унікальні потреби та
+									обставини, тому пропонуємо гнучкий режим роботи, який враховує
+									індивідуальні вимоги та дозволяє пристосуватися до них.
+								</p>
+							</div>
+						</li>
+						<li class="drupal-item accent-drupal">
+							<img src="./images/drupal/drupal-2.svg" alt="icon" />
+							<div class="drupal-text-content">
+								<h3 class="drupal-subtitle">Робимо вклад в Open Source</h3>
+								<p class="drupal-text">
+									Drupal – це не тільки широке міжнародне співтовариство, але й
+									потужна технологія OpenSource. Наша команда створює публікує
+									власні модулі та теми оформлення на Drupal.org.
+								</p>
+							</div>
+						</li>
+						<li class="drupal-item">
+							<img src="./images/drupal/drupal-3.svg" alt="icon" />
+							<div class="drupal-text-content">
+								<h3 class="drupal-subtitle">
+									Дали людям безкоштовно e-commerce платформу
+								</h3>
+								<p class="drupal-text">
+									Alternative commerce - безкоштовний 100% готовий сайт-магазин
+									на основі Drupal. Ви можете завантажити та почати робити
+									покупки на своєму хостингу! Або за нашої підтримки та
+									хостингу!
+								</p>
+							</div>
+						</li>
+					</ul>
+				</section>
+
+				<!-- Our partners -->
+				<section class="partners">
+					<h2 class="partners-title title">З нами працюють:</h2>
+					<div class="partners-lists"><ul class="partners-list">
+						<li class="partners-item">
+							<img src="./images/partners/partner-1.svg" alt="Toyota" />
+						</li>
+						<li class="partners-item">
+							<img src="./images/partners/partner-2.svg" alt="Bravo Airways" />
+						</li>
+						<li class="partners-item">
+							<img
+								src="./images/partners/partner-3.svg"
+								alt="Аптека - Бажаємо здоров'я"
+							/>
+						</li>
+						<li class="partners-item">
+							<img
+								src="./images/partners/partner-4.svg"
+								alt="Bogomolets clinic"
+							/>
+						</li>
+
+						<li class="partners-item">
+							<img
+								src="./images/partners/partner-5.svg"
+								alt="CSD - медична лабораторія"
+							/>
+						</li>
+					</ul>
+					<ul class="partners-list">
+						<li class="partners-item">
+							<img
+								src="./images/partners/partner-6.svg"
+								alt="Місто - страхова компанія"
+							/>
+						</li>
+						<li class="partners-item">
+							<img src="./images/partners/partner-7.svg" alt="Momentum" />
+						</li>
+						<li class="partners-item">
+							<img src="./images/partners/partner-8.svg" alt="Natur Boutiqe" />
+						</li>
+						<li class="partners-item">
+							<img src="./images/partners/partner-9.svg" alt="Biopharm" />
+						</li>
+						<li class="partners-item">
+							<img
+								src="./images/partners/partner-10.svg"
+								alt="Національна опера України"
+							/>
+						</li>
+					</ul>
+					<ul class="partners-list">
+						<li class="partners-item">
+							<img src="./images/partners/partner-11.svg" alt="Plazzo d`Oro" />
+						</li>
+						<li class="partners-item">
+							<img src="./images/partners/partner-12.svg" alt="EMC Elegant" />
+						</li>
+						<li class="partners-item">
+							<img src="./images/partners/partner-13.svg" alt="Anti Show" />
+						</li>
+						<li class="partners-item">
+							<img
+								src="./images/partners/partner-14.svg"
+								alt="VFC spare parts"
+							/>
+						</li>
+					</ul>
+					
+				</section>
+
+				<section class="support">
+					<h2 class="support-title title">Ми допомагаємо ЗСУ разом!</h2>
+					<p class="support-text">
+						Наша команда <b>активно підтримує захисників України</b>,
+						перераховуючи частину прибутку на потреби ЗСУ. Ми пишаємося тим, що
+						можемо бути частиною великої справи – допомоги тим, хто бореться за
+						нашу свободу та безпеку. Разом ми сильніші.
+					</p>
+					<div class="support-details">
+						<div class="details-text-content">
+							<p class="details-text">Нами було пожертвувано близько:</p>
+							<p class="details-acent"><span class="details-acent-number">2<span>млн. грн</p>
+						</div>
+						<ul class="details-icons-list">
+							<li class="details-icons-item">
+								<img
+									class="details-item-img"
+									src="./images/support/icon-1.svg"
+									alt="icon"
+								/>
+								<p class="details-item-img">Дрони</p>
+							</li>
+							<li class="details-icons-item">
+								<img
+									class="details-item-img"
+									src="./images/support/icon-2.svg"
+									alt="icon"
+								/>
+								<p class="details-item-img">Генератори</p>
+							</li>
+							<li class="details-icons-item">
+								<img
+									class="details-item-img"
+									src="./images/support/icon-3.svg"
+									alt="icon"
+								/>
+								<p class="details-item-img">Рації</p>
+							</li>
+							<li class="details-icons-item">
+								<img
+									class="details-item-img"
+									src="./images/support/icon-4.svg"
+									alt="icon"
+								/>
+								<p class="details-item-img">Допомога дітям</p>
+							</li>
+						</ul>
+					</div>
+					<ul class="support-gallery">
+						<li class="support-gallery-item">
+							<img src="./images/support/support-1.png" alt="photo" />
+						</li>
+						<li class="support-gallery-item">
+							<img src="./images/support/support-2.png" alt="photo" />
+						</li>
+						<li class="support-gallery-item">
+							<img src="./images/support/support-3.png" alt="photo" />
+						</li>
+					</ul>
+				</section>
+			</main>
+		</div>
+		<footer class="footer">
+
+				<div class="footer-left">
+					<img src="./images/svg/logo-footer.svg" alt="GL.ua Logo" class="footer-logo" />
+					<p class="footer-text">
+						Компанія працює з 2008 року під брендом Глянець.<br />
+						Ми використовуємо для роботи лише власну нерухомість, техніку та
+						сервери. Виконуємо всі замовлення виключно своїми ресурсами,
+						залучаємо до роботи лише штатних працівників. Завдяки цьому нас
+						цінують як надійного партнера та підрядника.
+					</p>
+					<p class="footer-copyright">
+						© 2025 Глянець™ — Розробка та підтримка сайтів
+					</p>
+				</div>
+
+				<div class="footer-center-1">
+					<h3>Зателефонуйте нам</h3>
+					<p>
+						<a href="tel:0800759759"
+							>0 (800) <strong>759-759</strong> доб. 103</a
+						>
+					</p>
+					<p><a href="mailto:order@glyanec.net">order@glyanec.net</a></p>
+					<div class="footer-socials">
+						<a href="#">Instagram</a>
+						<a href="#">Facebook</a>
+						<a href="#">Google+</a>
+						<a href="#">Twitter</a>
+					</div>
+				</div>
+				<div class="footer-center-2">
+					<h3>Адреса нашого офісу</h3>
+					<p>
+						21016, Україна, м. Вінниця,<br />
+						с. Зарванці, <strong>вул. Архітектурна, 5А</strong><br />
+						GPS: <a href="#">49.234384, 28.394405</a>
+					</p>
+				</div>
+
+				<div class="footer-right">
+					
+					<h3>Наші стартапи</h3>
+					<div class="footer-startups">
+						<img src="./images/startups/ukr-gromad.png" alt="Україна Громада" />
+						<img
+							src="./images/startups/alternative.png"
+							alt="Alternative Commerce"
+						/>
+						<img src="./images/startups/helpdesk.png" alt="HelpDesk Star" />
+					</div>
+
+
+				<a href="#" class="scroll-to-top">↑</a>
+			</div>
+		</footer>
+
+		<script src="js/script.js"></script>
+		<!-- Підключаємо JavaScript -->
 	</body>
 </html>
